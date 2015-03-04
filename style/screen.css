@@ -1,0 +1,575 @@
+/* FOGLIO DI STILE PER IL PROGETTO DI TECWEB 2014 VERSIONE SCREEN */
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	font-family: Helvetica, Verdana, sans-serif;
+	font-size: 0.8em;
+	background-color:#7d7d7d;
+	vertical-align: baseline;
+}
+/* sposta i contenuti fuori dallo schermo */
+.shiftsx {
+	text-indent: -9999px;
+}
+
+/* definizione del main cioè la pagina centrale */
+#main {
+	min-height: 100%;
+	background-color: #FFFFFF;
+    padding: 0 2em;
+    max-width: 80em;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+/* definizione header con il logo e l'accesso */
+#header {
+	padding: 0.2em;
+	height: 110px;
+	margin: 0;
+	vertical-align: baseline;
+}
+
+#logo {
+	margin: 10px 0 0 0;
+	width: 350px;
+	height: 50px;
+	background-image: url(../img/logo.png);
+	background-repeat: no-repeat;
+	float: left;
+
+}
+
+/* definizione bottone di accesso - logout */
+.button {
+	float: right;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+.button a {
+	color: #000000;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bolder;
+	padding: 6px 10px;
+	border: 2px solid #000000;
+	border-radius: 7px;
+	background-color: #f5d907;
+}
+
+.button a:hover {
+	background-color: #4d4d4d;
+	color: #f5d907;
+}
+
+#loggato p {
+	font-size:small;
+	display: inline;
+}
+
+/* definizione del menù di navigazione con la lista di link */
+#nav {
+	width: 100%;
+	height: auto;
+	float: left;
+}
+
+#nav ul li {
+	margin: 0;
+	padding: 15px 0;
+}
+
+#nav ul {
+	width: 100%;
+	float: left;
+	padding-left: 0;
+	margin-left: 0;
+	margin-bottom: 0;
+	margin-top: 0;
+	list-style: none;
+	border-bottom: 2px solid #000000;
+	border-top: 2px solid #000000;
+}
+
+#nav li {
+	float: left;
+	margin-right: 5px;
+}
+
+#nav span {
+	color: #f5d907;
+	background-color: #4d4d4d;
+	text-align: center;
+	padding: 15px;
+	font-size: 1.25em;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-left: 1px solid #000000;
+	border-right: 1px solid #000000;
+}
+
+#nav a {
+	color: #000000;
+	text-align: center;
+	padding: 15px;
+	font-size: 1.25em;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+	border-left: 1px solid #FFFFFF;
+	border-right: 1px solid #FFFFFF;
+}
+
+#nav a:hover {
+	background-color: #f5d907;
+	border-left: 1px solid #000000;
+	border-right: 1px solid #000000;
+}
+
+/* definizione del path che contiene uno span con l'indicazione della pagina corrente */
+#path {
+	padding: 5px 0;
+	width: 100%;
+	float: left;
+	background-color: #4d4d4d;
+	text-transform: uppercase;
+	border-bottom: 2px solid #000000;
+}
+
+#path span {
+	color: #f5d907;
+	padding-left: 10px;
+}
+
+/* definizione corpo */
+#corpo {
+	float: left;
+	width: 100%;
+}
+
+/* definizione class display */
+.display {
+	min-height: 250px;
+	padding: 1.5em;
+	margin-top: 20px;
+	background-image: url(../img/bg_contenitore.png);
+	background-repeat: repeat-y;
+	border: #000000 solid 1px;
+	border-radius: 7px;
+	/* ombreggiarura standard, per chrome e per firefox */
+	box-shadow: 0px 7px 10px #000000;
+	-webkit-box-shadow: 0px 7px 10px #000000;
+	-moz-box-shadow: 0px 7px 10px #000000;
+}
+
+.display p {
+	padding: 0 2em;
+	font-size: medium;
+}
+
+.display a {
+	font-size: larger;
+}
+
+.display h2 {
+	margin: 0;
+	color: #f5d907;
+	
+	text-shadow:
+       2px 2px 0 #000000,
+     -1px -1px 0 #000000,  
+      1px -1px 0 #000000,
+      -1px 1px 0 #000000,
+       1px 1px 0 #000000;
+		   
+	font-size: xx-large;
+	font-weight: bold;
+	font-family: fantasy; 
+}
+
+.display h3 {
+	margin: 0;
+	color: #f5d907;
+	
+	text-shadow:
+       2px 2px 0 #000000,
+     -1px -1px 0 #000000,  
+      1px -1px 0 #000000,
+      -1px 1px 0 #000000,
+       1px 1px 0 #000000;
+		   
+	font-size: x-large;
+	font-weight: bold;
+	font-family: fantasy; 
+}
+
+.display hr {
+	height: 5px;
+	background-color: #000000;
+	margin: 0;
+	border-style: none;
+}
+
+/* definizione miniature */
+.miniature {
+	max-height: 200px;
+	max-width: 130px;
+	margin-top: 20px;
+	margin-right: 40px;
+	display: inline-block;
+}
+
+.miniature img {
+	margin: 0;
+	padding: 0;
+	height: 200px;
+	width: 130px;
+}
+
+.miniature a {
+	text-decoration: none;
+	display: block;
+}
+
+.miniature span {
+	color: #000000;
+}
+
+/* definizione miniature_risultati */
+.miniature_risultato {
+	max-height: 150px;
+	max-width: 97.5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 20px;
+	display: inline-block;
+}
+
+.miniature_risultato img {
+	margin: 0;
+	padding: 0;
+	height: 150px;
+	width: 97.5px;
+}
+
+
+/* definizione class risultati */
+.risultati {
+	padding: 0 3em;
+	border-bottom: 1px solid #000000;
+}
+.risultati ul {
+	padding-left: 1em;
+	margin-top: 0;
+	margin-bottom: 10px;
+	display: inline-block;
+	font-size: medium;
+}
+
+.risultati li {
+	padding: 5px 0;
+}
+
+/* definizione del footer */
+#footer {
+	width: 100%;
+	margin-top: 80px;
+	border-top: 2px solid #000000;
+	float: left;
+	clear: both;
+}
+#footer img {
+	padding-bottom:10px;
+	float: right;
+}
+
+/* CLASS Forms */
+
+.forms {
+	margin: 1em;
+	font-size: larger;
+}
+
+.forms fieldset, legend {
+	color: #000000;
+}
+
+.forms fieldset {
+	padding: 2% 4%;
+	border-color: #000000;
+	border-radius: 10px; 
+}
+
+.forms label {
+	float:left;
+	margin-right: 0.5em;
+	text-align: right;
+	font-weight: bold;
+}
+
+.forms label, input, select {
+	margin: 1em 0.5em;
+	position: relative;
+	float: left;
+	display: inline-block;
+}
+
+.span_err {
+	display: inline-block;
+	margin: 1em 0.5em;
+	color:#ff0000;
+	float: left;
+}
+
+/* class input_label */
+.input_label {
+	width: 100%;
+	float: left;	
+}
+
+/* dimensioni form di ricerca */
+#ricerca_autore.forms,
+#ricerca_titolo.forms,
+#ricerca_collana.forms {
+	max-width: 18em;
+	min-height: 220px;
+	display: inline-block;
+	margin-right: 0;
+}
+
+#ricerca_autore.forms legend,
+#ricerca_titolo.forms legend,
+#ricerca_collana.forms legend {
+	text-transform: uppercase;
+}
+
+.link_blok {
+	display: block;
+}
+
+/* definizione vis_utente */
+.vis_utente {
+	padding: 0 3em;
+	border-bottom: 1px solid #000000;
+}
+
+.vis_utente ul {
+	display: inline-block;
+	padding-left: 0;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	list-style-type: none;
+}
+
+.vis_utente li {
+	margin-right: 2em;
+	font-size: medium;
+	float: left;
+}
+
+.vis_utente span {
+	display: inline-block;
+}
+
+/* definizione link class admin */
+.link_admin ul {
+	padding: 0;
+	list-style-type: none;
+}
+
+.link_admin li {
+	padding: 1em 0;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.link_admin a {
+	width: 260px;
+	height: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	display: block;
+	border: 2px solid #000000;
+	border-radius: 15px;
+	/*text-indent: -9999px;*/
+	box-shadow: 0px 6px 10px black;
+	background-color: #4d4d4d;
+}
+
+.link_admin a:hover {
+	box-shadow: 0px 0px 0px;
+	background-color: #f5d907;
+}
+
+.admin_span {
+	display: inline-block;
+	margin-top: 20px;
+	margin-left: 80px;
+	color: #f5d907;
+	font-size: x-large;
+	font-weight: bold;
+	font-family: fantasy, Helvetica, Verdana, sans-serif;
+	text-shadow:
+       2px 2px 0 #000000,
+     -1px -1px 0 #000000,  
+      1px -1px 0 #000000,
+      -1px 1px 0 #000000,
+       1px 1px 0 #000000;
+}
+
+#link_lista_utenti {
+	background-image: url(../img/link_lista_utenti.png);
+}
+
+#link_add_libro {
+	background-image: url(../img/link_add_libro.png);
+}
+
+#link_del_libro {
+	background-image: url(../img/link_delete_libro.png);
+}
+
+/* definizione commenti */
+.commenti {
+	padding: 0 3em;
+	border-top: 1px solid #000000;
+	border-collapse: collapse;
+}
+
+span.commento_user {
+	margin-top: 5px;
+	display: block;
+	font-size: small;
+	float: left;
+}
+
+span.commento_data {
+	margin-top: 5px;
+	display: block;
+	font-size: small;
+	float: right;
+}
+
+span.commento_voto {
+	margin-top: 5px;
+	display: inline-block;
+	font-size: small;
+	float: none;
+}
+
+span.commento_elimina {
+	display: inline-block;
+	font-size: medium;
+	float: right;
+}
+
+span.commento_elimina input {
+	margin: 0;
+}
+.commenti p {
+	margin: 2.5em 0;
+	padding: 0;
+	clear: both;
+	font-size: medium;
+}
+
+#add_commento {
+	display: inline-block;
+}
+
+/* definizione span elimina libro */
+.del_libro {
+	display: inline-block;
+	font-size: medium;
+	float: left;
+}
+
+/*class icone generi*/
+
+
+#listageneri  {
+	width: 100%;
+	padding-left: 0;
+	margin-left: 0;
+	margin-bottom: 0;
+	margin-top: 0;
+	list-style: none;
+	
+}
+
+#listageneri li {
+	display: inline;
+	margin-right: 0px;
+}
+
+.iconegeneri{
+	height: 150px;
+	width: 150px;
+	margin-top: 20px;
+	margin-left: 5%;
+	margin-right: 5%;
+	display: inline-block;
+	background-color: #3d3d3d;
+	border-radius: 30px;
+	border-color: black;
+    border-style: solid;
+    border-width: 5px;
+}
+
+
+
+.iconegeneri a {
+    padding-top:5px;
+    font-size: 160%;
+	text-align: center;
+	text-decoration: none;
+	font-weight:bold;
+	opacity: 1;
+	font-family: Helvetica, Verdana, sans-serif;
+}
+
+.iconegeneri a:hover{
+	opacity: 0.7;
+}
+
+/*inserisco immagini diverse per le varie icone*/
+.adattaicona{
+	display: block;
+	width: 100%;
+	height: 97%;
+	background-size: 150px 150px;
+	border-radius: 25px;
+	color: #f5d907;
+	background-repeat: no-repeat;
+}
+
+#fantasy{
+	background-image: url(../img/fantasyicon.jpg);
+}
+
+#horror{
+	background-image: url(../img/horroricon.jpeg);		
+}
+
+#gialli{
+	background-image: url(../img/giallicon.png);
+}
+
+#fantascienza{
+	background-image: url(../img/fantascienzaicon.jpg);	
+}
+
+#narrativa{
+	background-image: url(../img/narrativaicon.jpg);	
+}
+
+#storico{
+	background-image: url(../img/storicoicon.jpg);	
+}	

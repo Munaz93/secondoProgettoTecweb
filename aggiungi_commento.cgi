@@ -1,0 +1,36 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="it" xml:lang="it" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>errore - Libreria di Valyria</title>
+		<link rel="icon" type="image/png" href="../img/icona_titolo.png" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<meta name="keywords" content="Inserisci i contenuti" />
+		<meta name="description" content="Inserisci le descrizioni" /> 
+		<link href="../style/screen.css" rel="stylesheet" type="text/css" media="screen"/> 
+		<link media="handheld, screen and (max-width:480px), only screen and (max-device-width:480px)" href="../style/small.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+	<div id="main">
+		<div id="header">
+			<h1 id="logo" class="shiftsx">Libreria di Valyria</h1>
+		</div>
+		<div id="path">
+			<span>Ti trovi in > Errore</span>
+		</div>
+		<div id="corpo">
+			<div class="display" >
+				<h2>Errore</h2>
+				<hr />
+				<p> Lei non ha i <strong>permessi</strong> per poter accedere a questa sezione del sito. Torni alla  <a href="../public_html/index.html">HOME</a> per continuare la navigazione.</p>
+			</div>
+		</div>
+		<div id="footer">
+			<p>Copyright 2013-2014
+			<img src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="CSS Valido!" />
+			<img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Strict"/>
+			</p>
+		</div>
+	</div>
+	</body>
+</html>
