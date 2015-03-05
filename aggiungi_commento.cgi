@@ -3,12 +3,12 @@
 <html lang="it" xml:lang="it" xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 		<title>errore - Libreria di Valyria</title>
-		<link rel="icon" type="image/png" href="../img/icona_titolo.png" />
+		<link rel="icon" type="image/png" href="img/icona_titolo.png" />
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 		<meta name="keywords" content="Inserisci i contenuti" />
 		<meta name="description" content="Inserisci le descrizioni" /> 
-		<link href="../style/screen.css" rel="stylesheet" type="text/css" media="screen"/> 
-		<link media="handheld, screen and (max-width:480px), only screen and (max-device-width:480px)" href="../style/small.css" rel="stylesheet" type="text/css"/>
+		<link href="style/screen.css" rel="stylesheet" type="text/css" media="screen"/> 
+		<link media="handheld, screen and (max-width:480px), only screen and (max-device-width:480px)" href="style/small.css" rel="stylesheet" type="text/css"/>
 	</head>
 	<body>
 	<div id="main">
@@ -22,7 +22,7 @@
 			<div class="display" >
 				<h2>Errore</h2>
 				<hr />
-				<p> Lei non ha i <strong>permessi</strong> per poter accedere a questa sezione del sito. Torni alla  <a href="../public_html/index.html">HOME</a> per continuare la navigazione.</p>
+				<p> Lei non ha i <strong>permessi</strong> per poter accedere a questa sezione del sito. Torni alla  <a href="public_html/index.html">HOME</a> per continuare la navigazione.</p>
 			</div>
 		</div>
 		<div id="footer">

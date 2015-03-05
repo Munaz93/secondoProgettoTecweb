@@ -2,13 +2,20 @@
 <html lang="it" xml:lang="it" xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 		<title>risultati - Libreria di Valyria</title>
-		<link rel="icon" type="image/png" href="../img/icona_titolo.png" />
+
+		<!-- 
+		SEBA
+		IL TITOLO È POCO INFORMATIVO
+		-->
+
+
+		<link rel="icon" type="image/png" href="img/icona_titolo.png" />
 		<meta name="keywords" content="Inserisci i contenuti" />
 		<meta name="description" content="Inserisci le descrizioni" /> 
-		<link href="../style/screen.css" rel="stylesheet" type="text/css" media="screen"/> 
-		<link media="handheld, screen and (max-width:480px), only screen and (max-device-width:480px)" href="../style/small.css" rel="stylesheet" type="text/css"/>
-		<link href="../style/print.css" rel="stylesheet" type="text/css" media="print"/>
-		<script type="text/javascript" src="../js/index_control.js"></script>
+		<link href="style/screen.css" rel="stylesheet" type="text/css" media="screen"/> 
+		<link media="handheld, screen and (max-width:480px), only screen and (max-device-width:480px)" href="style/small.css" rel="stylesheet" type="text/css"/>
+		<link href="style/print.css" rel="stylesheet" type="text/css" media="print"/>
+		<script type="text/javascript" src="js/index_control.js"></script>
 	</head>
 	<body>
 	<div id="main">
@@ -18,19 +25,19 @@
 		<div id="nav">
 			<ul>
 				<li>
-					<a href="../index.html">Home</a>
+					<a href="index.html">Home</a>
 				</li>
 				<li>
-					<a href="../about.html">Chi siamo</a>
+					<a href="about.html">Chi siamo</a>
 				</li>
 				<li>
-					<a href="../generi.html">Generi</a>
+					<a href="generi.html">Generi</a>
 				</li>
 				<li>
-					<a href="../ricerca.html">Ricerca</a>
+					<a href="ricerca.html">Ricerca</a>
 				</li>
 				<li>
-					<a href="../contatti.html">Contatti</a>
+					<a href="contatti.html">Contatti</a>
 				</li>
 			</ul>
 		</div>
@@ -43,7 +50,11 @@
 				<hr />
 <div class="risultati"> 
 						<div class="miniature_risultato">
-							<a href="viss_libro.cgi?id=5"><img src="../img/51S2YxmwpoL._.jpg" alt="I Fuochi Di Valyria" /></a>
+							<a href="viss_libro.cgi?id=5"><img src="img/51S2YxmwpoL._.jpg" alt="I Fuochi Di Valyria" /></a>
+							<!--
+							SEBA
+								PROVARE A ROMPERE PERCORSI IMMAGINE E VEDERE CHE SUCCEDE
+							 -->
 						</div>
 						<ul>
 							<li><strong>Autore</strong> : George R.R. Martin</li>
@@ -54,7 +65,7 @@
 						</ul>
 					</div><div class="risultati"> 
 						<div class="miniature_risultato">
-							<a href="viss_libro.cgi?id=20"><img src="../img/71lcxSXGrGL._SL1221_.jpg" alt="Shadowhunters: Citta' di ossa" /></a>
+							<a href="viss_libro.cgi?id=20"><img src="img/71lcxSXGrGL._SL1221_.jpg" alt="Shadowhunters: Citta' di ossa" /></a>
 						</div>
 						<ul>
 							<li><strong>Autore</strong> : Cassandra Clare</li>
@@ -65,7 +76,7 @@
 						</ul>
 					</div><div class="risultati"> 
 						<div class="miniature_risultato">
-							<a href="viss_libro.cgi?id=21"><img src="../img/61L26nF3GFL._SL1403_.jpg" alt="Shadowhunters: Citta' di cenere" /></a>
+							<a href="viss_libro.cgi?id=21"><img src="img/61L26nF3GFL._SL1403_.jpg" alt="Shadowhunters: Citta' di cenere" /></a>
 						</div>
 						<ul>
 							<li><strong>Autore</strong> : Cassandra Clare </li>
@@ -76,7 +87,7 @@
 						</ul>
 					</div><div class="risultati"> 
 						<div class="miniature_risultato">
-							<a href="viss_libro.cgi?id=22"><img src="../img/71dntZ-2tRL._SL1366_.jpg" alt="La regina dei draghi" /></a>
+							<a href="viss_libro.cgi?id=22"><img src="img/71dntZ-2tRL._SL1366_.jpg" alt="La regina dei draghi" /></a>
 						</div>
 						<ul>
 							<li><strong>Autore</strong> : George R.R. Martin</li>
@@ -87,7 +98,7 @@
 						</ul>
 					</div><div class="risultati"> 
 						<div class="miniature_risultato">
-							<a href="viss_libro.cgi?id=23"><img src="../img/infernogungui.jpg" alt="Inferno: Canti delle Terre Divise" /></a>
+							<a href="viss_libro.cgi?id=23"><img src="img/infernogungui.jpg" alt="Inferno: Canti delle Terre Divise" /></a>
 						</div>
 						<ul>
 							<li><strong>Autore</strong> : Francesco Gungui </li>

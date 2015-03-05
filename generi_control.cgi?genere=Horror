@@ -2,13 +2,13 @@
 <html lang="it" xml:lang="it" xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 		<title>risultati - Libreria di Valyria</title>
-		<link rel="icon" type="image/png" href="../img/icona_titolo.png" />
+		<link rel="icon" type="image/png" href="img/icona_titolo.png" />
 		<meta name="keywords" content="Inserisci i contenuti" />
 		<meta name="description" content="Inserisci le descrizioni" /> 
-		<link href="../style/screen.css" rel="stylesheet" type="text/css" media="screen"/> 
-		<link media="handheld, screen and (max-width:480px), only screen and (max-device-width:480px)" href="../style/small.css" rel="stylesheet" type="text/css"/>
-		<link href="../style/print.css" rel="stylesheet" type="text/css" media="print"/>
-		<script type="text/javascript" src="../js/index_control.js"></script>
+		<link href="style/screen.css" rel="stylesheet" type="text/css" media="screen"/> 
+		<link media="handheld, screen and (max-width:480px), only screen and (max-device-width:480px)" href="style/small.css" rel="stylesheet" type="text/css"/>
+		<link href="style/print.css" rel="stylesheet" type="text/css" media="print"/>
+		<script type="text/javascript" src="js/index_control.js"></script>
 	</head>
 	<body>
 	<div id="main">
@@ -18,19 +18,19 @@
 		<div id="nav">
 			<ul>
 				<li>
-					<a href="../index.html">Home</a>
+					<a href="index.html">Home</a>
 				</li>
 				<li>
-					<a href="../about.html">Chi siamo</a>
+					<a href="about.html">Chi siamo</a>
 				</li>
 				<li>
-					<a href="../generi.html">Generi</a>
+					<a href="generi.html">Generi</a>
 				</li>
 				<li>
-					<a href="../ricerca.html">Ricerca</a>
+					<a href="ricerca.html">Ricerca</a>
 				</li>
 				<li>
-					<a href="../contatti.html">Contatti</a>
+					<a href="contatti.html">Contatti</a>
 				</li>
 			</ul>
 		</div>
@@ -43,7 +43,7 @@
 				<hr />
 <div class="risultati"> 
 						<div class="miniature_risultato">
-							<a href="viss_libro.cgi?id=2"><img src="../img/41AUyOK4BL.jpg" alt="Il lIbro delle Anime" /></a>
+							<a href="viss_libro.cgi?id=2"><img src="img/41AUyOK4BL.jpg" alt="Il lIbro delle Anime" /></a>
 						</div>
 						<ul>
 							<li><strong>Autore</strong> : Glenn Cooper</li>
@@ -54,7 +54,7 @@
 						</ul>
 					</div><div class="risultati"> 
 						<div class="miniature_risultato">
-							<a href="viss_libro.cgi?id=6"><img src="../img/winter-chiave.jpg" alt="Black Friars: L'ordine della chiave" /></a>
+							<a href="viss_libro.cgi?id=6"><img src="img/winter-chiave.jpg" alt="Black Friars: L'ordine della chiave" /></a>
 						</div>
 						<ul>
 							<li><strong>Autore</strong> : De Winter Virginia</li>
@@ -65,7 +65,7 @@
 						</ul>
 					</div><div class="risultati"> 
 						<div class="miniature_risultato">
-							<a href="viss_libro.cgi?id=9"><img src="../img/71XKegYCK6L._SL1387_.jpg" alt="Doctor Sleep" /></a>
+							<a href="viss_libro.cgi?id=9"><img src="img/71XKegYCK6L._SL1387_.jpg" alt="Doctor Sleep" /></a>
 						</div>
 						<ul>
 							<li><strong>Autore</strong> : Stephen King</li>
@@ -76,7 +76,7 @@
 						</ul>
 					</div><div class="risultati"> 
 						<div class="miniature_risultato">
-							<a href="viss_libro.cgi?id=24"><img src="../img/71xgc2UR9fL._SL1349_.jpg" alt="The trap" /></a>
+							<a href="viss_libro.cgi?id=24"><img src="img/71xgc2UR9fL._SL1349_.jpg" alt="The trap" /></a>
 						</div>
 						<ul>
 							<li><strong>Autore</strong> : Andrew Fukuda</li>
@@ -87,7 +87,7 @@
 						</ul>
 					</div><div class="risultati"> 
 						<div class="miniature_risultato">
-							<a href="viss_libro.cgi?id=25"><img src="../img/7194OavHJL._SL1500_.jpg" alt="The hunt" /></a>
+							<a href="viss_libro.cgi?id=25"><img src="img/7194OavHJL._SL1500_.jpg" alt="The hunt" /></a>
 						</div>
 						<ul>
 							<li><strong>Autore</strong> : Andrew Fukuda</li>
