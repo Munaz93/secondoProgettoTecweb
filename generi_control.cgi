@@ -2,13 +2,13 @@
 <html lang="it" xml:lang="it" xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 		<title>risultati - Libreria di Valyria</title>
-		<link rel="icon" type="image/png" href="../img/icona_titolo.png" />
+		<link rel="icon" type="image/png" href="img/icona_titolo.png" />
 		<meta name="keywords" content="Inserisci i contenuti" />
 		<meta name="description" content="Inserisci le descrizioni" /> 
-		<link href="../style/screen.css" rel="stylesheet" type="text/css" media="screen"/> 
-		<link media="handheld, screen and (max-width:480px), only screen and (max-device-width:480px)" href="../style/small.css" rel="stylesheet" type="text/css"/>
-		<link href="../style/print.css" rel="stylesheet" type="text/css" media="print"/>
-		<script type="text/javascript" src="../js/index_control.js"></script>
+		<link href="style/screen.css" rel="stylesheet" type="text/css" media="screen"/> 
+		<link media="handheld, screen and (max-width:480px), only screen and (max-device-width:480px)" href="style/small.css" rel="stylesheet" type="text/css"/>
+		<link href="style/print.css" rel="stylesheet" type="text/css" media="print"/>
+		<script type="text/javascript" src="js/index_control.js"></script>
 	</head>
 	<body>
 	<div id="main">
@@ -18,19 +18,19 @@
 		<div id="nav">
 			<ul>
 				<li>
-					<a href="../index.html">Home</a>
+					<a href="index.html">Home</a>
 				</li>
 				<li>
-					<a href="../about.html">Chi siamo</a>
+					<a href="about.html">Chi siamo</a>
 				</li>
 				<li>
-					<a href="../generi.html">Generi</a>
+					<a href="generi.html">Generi</a>
 				</li>
 				<li>
-					<a href="../ricerca.html">Ricerca</a>
+					<a href="ricerca.html">Ricerca</a>
 				</li>
 				<li>
-					<a href="../contatti.html">Contatti</a>
+					<a href="contatti.html">Contatti</a>
 				</li>
 			</ul>
 		</div>
