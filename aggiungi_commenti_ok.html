@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="it" xml:lang="it" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>aggiungi commento - visualizza libro - Libreria di Valyria</title>
+    <link rel="icon" type="image/png" href="img/icona_titolo.png" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="keywords" content="Inserisci i contenuti" />
+    <meta name="description" content="Inserisci le descrizioni" /> 
+    <link href="style/screen.css" rel="stylesheet" type="text/css" media="screen"/> 
+    <link media="handheld, screen and (max-width:480px), only screen and (max-device-width:480px)" href="style/small.css" rel="stylesheet" type="text/css"/>
+    <link href="style/print.css" rel="stylesheet" type="text/css" media="print"/>
+    <script type="text/javascript" src="js/insert_commento_control.js"></script>
+  </head>
+  <body onload="controlli()">
+  <div id="main">
+    <div id="header">
+      <h1 id="logo" class="shiftsx">Libreria di Valyria</h1>
+    </div>
+    <div id="nav">
+      <ul id="navul">
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+           <a href="about.html">Chi siamo</a>
+        </li>
+        <li>
+           <a href="generi.html">Generi</a>
+        </li>
+        <li>
+          <a href="ricerca.html">Ricerca</a>
+        </li>
+        <li>
+          <a href="contatti.html">Contatti</a>
+        </li>
+      </ul>
+    </div>
+    <div id="path">
+      <span>Ti trovi in > visualizza libro > Aggiungi commento</span>
+    </div>
+    <div id="corpo">
+      <div class="display">
+        <h2>Aggiungi commento</h2>
+        <hr />
+        <p>Inserisci un commento relativo al libro.</p>
+        <form class="forms" id="form_new_commento" method="post" action="">
+          <fieldset>
+            <legend>Inserimento nuovo commento</legend>
+            <div class="input_label">
+              <label for="commento">Commento : </label>
+              <textarea id="form_commento" name="commento" rows="15" cols="80" onfocus="delTextFocus(this)">
+              </textarea><span class="span_err" id="err_commento" ></span>
+            </div>
+            <div class="input_label">
+              <label for="voto">Voto : </label>
+              <select id="form_voto" name="voto" >
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+            </div>
+            <input type="hidden" name="id_libro" value="20" />
+            <input type="hidden" name="user_commento" value="pippo" /> 
+            <input type="button" value="Inserisci" onclick="valida_commento()" />
+          </fieldset>
+        </form>
+      </div>
+    </div>
+    <div id="footer">
+      <p>Copyright 2013-2014
+      <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="CSS Valido!" />
+      <img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Strict"/>
+      </p>
+    </div>
+  </div>
+  </body>
+</html>
+
+<!-- 
+Si può inserire un commento "vuoto", lasciando uno spazio nella textarea e
+richiedendo l'inserimento
+~~ Seba
+-->
